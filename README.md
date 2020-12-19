@@ -1,6 +1,6 @@
 1. Summary
 -----------
-Basic datatype benchmarks using intra-node communication mechanisms i.e., 
+MPI datatype benchmarks using various intra-node communication mechanisms i.e., 
 POSIX SHMEM, XPMEM, and CMA, etc. The benchmarks support single and multi-pair 
 configuration  where in multi-pair configuration `sender' process owns and 
 initiates the data movement while receiver peers copy / receive the data in 
@@ -85,4 +85,5 @@ $ mpirun_rsh -np 2 -hostfile ~/hosts MV2_DEBUG_CORESIZE=unlimited ./bin/bench.x 
 ** it is highly recommended to use unified benchmark for evaluation purposes **
 
 --------------------------
-Contact: hashmi.29@osu.edu
+Contact: Jahanazeb Hashmi
+jahanzeb [dot] maqbool [at] gmail.com
